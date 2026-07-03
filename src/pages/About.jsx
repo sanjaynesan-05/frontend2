@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar.jsx";
-import "./About.css";
+import "./Page.css";
 
 function About() {
   return (
-    <div className="about-page-shell">
+    <div className="page-shell">
       <Navbar />
-      <main className="about-page-content">
-        <section className="about-page-card">
-          <h2 className="about-page-title">About</h2>
-          <p className="about-page-text">This is a simple beginner-friendly About page.</p>
+      <main className="page-content">
+        <section className="page-card">
+          <h2 className="page-title">About</h2>
+          <p className="page-text">This is a simple beginner-friendly About page.</p>
         </section>
       </main>
     </div>

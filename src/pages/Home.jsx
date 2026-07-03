@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar.jsx";
-import "./Home.css";
+import "./Page.css";
 
 function Home() {
     return (
-        <div className="home-page-shell">
+        <div className="page-shell">
             <Navbar />
-            <main className="home-page-content">
-                <section className="home-page-card">
-                    <h2 className="home-page-title">Home</h2>
-                    <p className="home-page-text">Welcome to the Home page!</p>
+            <main className="page-content">
+                <section className="page-card">
+                    <h2 className="page-title">Home</h2>
+                    <p className="page-text">Welcome to the Home page!</p>
                 </section>
             </main>
         </div>

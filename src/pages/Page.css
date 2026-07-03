@@ -1,26 +1,26 @@
-.about-page-shell {
+.page-shell {
 	min-height: 100vh;
 	background: var(--bg);
 }
 
-.about-page-content {
+.page-content {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
-.about-page-card {
-	background: var(--surface);
+.page-card {
+	background: #ffffff67;
 	border: 1px solid var(--border);
 	border-radius: var(--radius);
 	box-shadow: var(--shadow);
 	padding: 24px;
 }
 
-.about-page-title {
+.page-title {
 	margin-bottom: 8px;
 }
 
-.about-page-text {
+.page-text {
 	margin: 0;
 }

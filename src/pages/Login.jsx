@@ -4,8 +4,10 @@ import "./Login.css";
 
 function Login() {
     //form data va hold panna
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
@@ -13,9 +15,10 @@ function Login() {
 
     console.log("Email:", email);
     console.log("Password:", password);
+
 //login ah verify panna simple if else condition use pannirukom. 
 
-    if (email === "admin@gmail.com" && password === "12345") {
+    if (email === "sanjaynesan007@gmail.com" && password === "sanjay@2005") {
       alert("Login Successful!");
       navigate("/home");
     } else {
