@@ -1,0 +1,26 @@
+.contact-page-shell {
+	min-height: 100vh;
+	background: var(--bg);
+}
+
+.contact-page-content {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.contact-page-card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+	padding: 24px;
+}
+
+.contact-page-title {
+	margin-bottom: 8px;
+}
+
+.contact-page-text {
+	margin: 0;
+}
